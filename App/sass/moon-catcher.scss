@@ -1,0 +1,57 @@
+/*  Space Carnival - Moon Catcher
+    ------------------------------------------------------------
+    Author(s):
+        Luke Zammit
+        Jade Brookes
+
+    Description:
+        Styles for Game 1 - Moon Catcher
+
+    Contents:
+        1. Mixins
+        2. Color variables
+        3. Section styles
+
+    ------------------------------------------------------------
+*/
+
+/*  1. Mixins
+    -------------------------------------------------------------------------------- */ 
+
+
+/*  2. Color variables
+    -------------------------------------------------------------------------------- */  
+
+
+/*  3. Section styles
+    -------------------------------------------------------------------------------- */   
+
+    .moon-catcher {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .ball
+    {
+        width: 60px;
+        height: 60px;
+        background-color: orange;
+        border-radius: 33px;
+        position: absolute;
+        top: 70px;
+        left: 70px;
+    } 
+
+    .trapezium 
+    {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        background: green;
+    }
+
+    .cup {
+        float: left;
+    }
